@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        Scanner Scanner=new Scanner(System.in);
+        int n=Scanner.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            int x=Scanner.nextInt();
+            if(x>20)
+            {
+                System.out.println("HOT");
+            }
+            else
+            {
+                System.out.println("COLD");
+            }
+        }
+	}
+}
